@@ -1,3 +1,3 @@
 export const API_CONFIG = {
-   baseUrl : 'https://helpdesk-backend-ueg-goianesia.herokuapp.com'
+   baseUrl : 'http://localhost:8080'
 }

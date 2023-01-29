@@ -92,7 +92,9 @@ export class ChamadoUpdateComponent implements OnInit {
       return 'ABERTO'
     } else if(status == '1') {
       return 'EM ANDAMENTO'
-    } else {
+    } else if(status == '3'){
+      return 'PENDENTE CLIENTE'
+    }else {
       return 'ENCERRADO'
     }
   }
