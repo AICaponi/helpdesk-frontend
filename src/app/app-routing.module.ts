@@ -37,6 +37,11 @@ const routes: Routes = [
       { path: 'chamados/create',                component:   ChamadoCreateComponent },
       { path: 'chamados/update/:id',            component:   ChamadoUpdateComponent },
       { path: 'chamados/read/:id',              component:     ChamadoReadComponent },
+
+      { path: 'chamados-cliente',                       component:     ChamadoListComponent },
+      { path: 'chamados-cliente/create',                component:   ChamadoCreateComponent },
+      { path: 'chamados-cliente/update/:id',            component:   ChamadoUpdateComponent },
+      { path: 'chamados-cliente/read/:id',              component:     ChamadoReadComponent },
     ]
   }
 ];
